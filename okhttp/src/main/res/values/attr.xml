@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="swipelistviewstyle">
+        <attr name="right_width" format="dimension"></attr>
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <!-- 可清空编辑框属性 -->
+    <declare-styleable name="ETWithDelete">
+        <attr name="delSrc" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DottedLine">
+        <attr name="dotColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="inner_width" format="dimension"/>
+        <attr name="inner_height" format="dimension"/>
+        <attr name="inner_margintop" format="dimension" />
+        <attr name="inner_corner_color" format="color" />
+        <attr name="inner_corner_length" format="dimension" />
+        <attr name="inner_corner_width" format="dimension" />
+        <attr name="inner_scan_bitmap" format="reference" />
+        <attr name="inner_scan_speed" format="integer" />
+        <attr name="inner_scan_iscircle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="centered" format="boolean" />
+        <attr name="fadeOut" format="integer" />
+        <attr name="inactiveType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="circleSeparation" format="dimension" />
+        <attr name="activeRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimDownloadProgressButton">
+        <attr name="progressbtn_radius" format="float"/>
+        <attr name="progressbtn_background_color" format="color"/>
+        <attr name="progressbtn_button_end_color" format="color" />
+        <attr name="progressbtn_background_second_color" format="color"/>
+        <attr name="progressbtn_text_size" format="float"/>
+        <attr name="progressbtn_text_color" format="color"/>
+        <attr name="progressbtn_text_covercolor" format="color"/>
+        <attr name="progressbtn_enable_press" format="boolean"/>
+        <attr name="progressbtn_enable_gradient" format="boolean"/>
+    </declare-styleable>
+  <!--  <declare-styleable name="Topbar">
+        <attr name="title" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="leftTextColor" format="color"  />
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightBackground" format="reference|color"  />
+        <attr name="rightText" format="string" />
+    </declare-styleable>-->
+
+    <declare-styleable name="LoopView">
+        <attr name="flag" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <!-- 自定义RatingBar属性 -->
+    <declare-styleable name="MyRatingBar">
+        <attr name="progressColor" format="color" />
+        <attr name="starWidth" format="dimension" />
+        <attr name="starHeight" format="dimension" />
+        <attr name="rating" format="float" />
+        <attr name="starDrawable" format="reference" />
+        <attr name="space" format="dimension" />
+        <attr name="isIndicator" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="XRecyclerView">
+        <attr name="is_gridView" format="boolean" />
+        <attr name="num_columns" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBarView">
+        <attr name="progress_unreach_color" format="color"></attr>
+        <attr name="progress_height" format="dimension"></attr>
+        <attr name="progress_reach_color" format="color"></attr>
+        <attr name="progress_text_color" format="color"></attr>
+        <attr name="progress_text_size" format="dimension"></attr>
+        <attr name="progress_text_offset" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="rount_progress_radius" format="dimension"></attr>
+    </declare-styleable>
+</resources>

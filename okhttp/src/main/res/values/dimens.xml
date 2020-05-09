@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <integer name="activity_move_shortAnimTime">500</integer>
+    <color name="button_selected">#F3F3F3</color>
+    <color name="button_unselected">@color/white</color>
+
+    <dimen name="picker_view_height">160dp</dimen>
+    <dimen name="date_unit_text_size">18sp</dimen>
+
+    <dimen name="text_30_size">30sp</dimen>
+    <dimen name="text_25_size">25sp</dimen>
+    <dimen name="text_20_size">20sp</dimen>
+    <dimen name="text_18_size">18sp</dimen>
+    <dimen name="text_16_size">16sp</dimen>
+    <dimen name="text_15_size">15sp</dimen>
+    <dimen name="text_14_size">14sp</dimen>
+    <dimen name="text_12_size">12sp</dimen>
+    <dimen name="text_10_size">10sp</dimen>
+    <dimen name="bottom_menu_btn_height">45dp</dimen>
+    <dimen name="bottom_menu_corner">6dp</dimen>
+    <dimen name="bottom_menu_btn_margin">2dp</dimen>
+    <dimen name="bottom_menu_btn_text_size">16sp</dimen>
+    <dimen name="bottom_menu_layout_margin">10dp</dimen>
+</resources>
