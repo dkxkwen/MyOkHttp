@@ -3,8 +3,9 @@ package com.vikily.okhttp.util.qrcode;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.vikily.okhttp.R;
 import com.vikily.okhttp.util.StatusBarUtil;
